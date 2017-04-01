@@ -38,21 +38,20 @@ Install H5PracticeEditor
 </p>
 
 
-<h3>Other images</h3>
+# Software screenshots
 
 <p align="center">
- <img align="center" alt="start up" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h1.gif" />
+ <img align="center" alt="initial interface" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h1.gif" />
 </p>
-
 <p align="center">
- <img align="center" alt="editor" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h2.gif" />
+ <img align="center" alt="tabs" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h2.gif" />
  </p>
  <p align="center">
- <img align="center" alt="editor" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h3.gif" />
+ <img align="center" alt="data module" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h3.gif" />
  </p>
  <p align="center">
- <img align="center" alt="option" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h4.gif" />
+ <img align="center" alt="scenario editor module" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h4.gif" />
  </p>
  <p align="center">
- <img align="center" alt="keystrokes" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h5.gif" />
+ <img align="center" alt="run webpage" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h5.gif" />
  </p>
