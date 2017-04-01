@@ -1,8 +1,6 @@
-# H5PracticeEditor
-A h5 car parts disassembling animation editor.
 <p align="center">
-<a href="https://github.com/NickeManarin/ScreenToGif" target="_blank">
-<img align="center" alt="screen recorder" src="https://github.com/NickeManarin/ScreenToGif-Website/blob/master/screenshots/Recorder.png" />
+<a href="https://github.com/arvin0/H5PracticeEditor" target="_blank">
+<img align="center" alt="H5PracticeEditor" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h1.jpg" />
 </a>
 </p>
 <p align="center">
