@@ -26,7 +26,8 @@
 # H5PracticeEditor
 
 The H5PracticeEditor is a h5 car parts disassembling animation editor. 
-This is the software website <a href="http://139.196.58.114:8036/index.html" target="_blank">H5PracticeEditor.com</a>
+
+The software website is <a href="http://139.196.58.114:8036/index.html" target="_blank">H5PracticeEditor.com</a>.
 
 # Installation
 
@@ -41,17 +42,22 @@ Install H5PracticeEditor
 # Software screenshots
 
 <p align="center">
- <img align="center" alt="initial interface" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h1.gif" />
+   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h1.gif" 
+   alt="initial interface" />
 </p>
 <p align="center">
- <img align="center" alt="tabs" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h2.gif" />
+   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h2.gif" 
+   alt="tabs" />
  </p>
  <p align="center">
- <img align="center" alt="data module" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h3.gif" />
+   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h3.gif" 
+   alt="data module" />
  </p>
  <p align="center">
- <img align="center" alt="scenario editor module" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h4.gif" />
+   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h4.gif" 
+    alt="scenario editor module" />
  </p>
  <p align="center">
- <img align="center" alt="run webpage" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h5.gif" />
+   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h5.gif"
+   alt="run webpage" />
  </p>
