@@ -22,11 +22,16 @@
     </a>
    
 </p>
-<h1 align="center">H5PracticeEditor 🎬 <a href="http://139.196.58.114:8036/index.html" target="_blank">H5PracticeEditor.com</a></h1>
+# H5PracticeEditor
 
-<p>A h5 car parts disassembling animation editor. <a href="https://github.com/arvin0/H5PracticeEditor/releases">Download it here</a></p>
+The H5PracticeEditor is a h5 car parts disassembling animation editor. 
+This is the software website <h1> 🎬 <a href="http://139.196.58.114:8036/index.html" target="_blank">H5PracticeEditor.com</a></h1>
 
-<p align="center">
+# Installation
+
+Install H5PracticeEditor
+* [Download](https://github.com/arvin0/H5PracticeEditor/releases).
+<p>
 <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji> Attention, it requires Windows Vista or above1.
  <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji>
 </p>
