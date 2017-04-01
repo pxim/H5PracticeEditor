@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/arvin0/H5PracticeEditor" target="_blank">
-<img align="center" alt="H5PracticeEditor" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/img/apple-icon-60x60.png" />
+<img align="center" alt="H5PracticeEditor" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/img/apple-icon-152x152.png" />
 </a>
 </p>
 <p align="center">
@@ -17,7 +17,7 @@
  <img alt="Build status" src="https://ci.appveyor.com/api/projects/status/y43difu89c6juyli?svg=true" />
 </a>
 </p>
-<h1 align="center">H5PracticeEditor 🎬 <a href="http://139.196.58.114:8036/index.html" target="_blank">screentogif.com</a></h1>
+<h1 align="center">H5PracticeEditor 🎬 <a href="http://139.196.58.114:8036/index.html" target="_blank">H5PracticeEditor.com</a></h1>
 
 <p>A h5 car parts disassembling animation editor. <a href="https://github.com/arvin0/H5PracticeEditor/releases">Download it here</a></p>
 
