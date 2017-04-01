@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/arvin0/H5PracticeEditor" target="_blank">
-<img align="center" alt="H5PracticeEditor" width="100%" height="100%" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/img/apple-icon-152x152.png" />
+<img align="center" alt="H5PracticeEditor" width="100%" height="100%" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/img/apple-icon-60x60.png" />
 </a>
 </p>
 <p align="center">
