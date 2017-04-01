@@ -8,9 +8,9 @@
         <img src="https://img.shields.io/github/stars/arvin0/H5PracticeEditor.svg" 
              alt="GitHub stars">
     </a>
-    <a href="https://github.com/arvin0/H5PracticeEditor/releases">
-        <img src="https://img.shields.io/github/downloads/arvin0/H5PracticeEditor/total.svg"
-             alt="All releases">
+    <a href="https://github.com/arvin0/H5PracticeEditor/releases/latest" target="_blank">
+      <img src="https://img.shields.io/github/release/arvin0/H5PracticeEditor.svg" 
+           alt="Latest GitHub release" >
     </a>
     <a href="https://github.com/arvin0/H5PracticeEditor/releases" target="_blank">
         <img src="https://img.shields.io/github/downloads/arvin0/H5PracticeEditor/total.svg"
