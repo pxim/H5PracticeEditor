@@ -32,7 +32,7 @@ The software website is <a href="http://139.196.58.114:8036/index.html" target="
 # Installation
 
 Install H5PracticeEditor
-* [Download](https://github.com/arvin0/H5PracticeEditor/releases/latest).
+* [Download](https://github.com/arvin0/H5PracticeEditor/releases).
 <p>
 <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji> Attention, it requires Windows Vista or above1.
  <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji>
