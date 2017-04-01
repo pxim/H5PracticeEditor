@@ -40,7 +40,11 @@ Install H5PracticeEditor
 
 
 # Software screenshots
-<p></p>
+
+<p align="center">
+   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h2.gif" 
+   alt="tabs" />
+ </p>
 <p align="center">
    <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h1.gif" 
    alt="initial interface" />
