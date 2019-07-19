@@ -1,6 +1,6 @@
 <p align="center">
 <a href="https://github.com/i-fuyun/H5PracticeEditor" target="_blank">
-<img align="center" alt="H5PracticeEditor" src="https://github.com/i-fuyun/H5PracticeEditor/tree/master/website/img/apple-icon-152x152.png" />
+<img align="center" alt="H5PracticeEditor" src="https://i-fuyun.github.io/H5PracticeEditor/website/img/apple-icon-152x152.png" />
 </a>
 </p>
 <p align="center">
@@ -32,7 +32,7 @@ The software website is <a href="http://139.196.58.114:8036/index.html" target="
 # Installation
 
 Install H5PracticeEditor
-* [Download](https://github.com/arvin0/H5PracticeEditor/releases).
+* [Download](https://github.com/i-fuyun/H5PracticeEditor/releases).
 <p>
 <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji> Attention, it requires Windows Vista or above1.
  <g-emoji ios-version="6.0" fallback-src="https://assets-cdn.github.com/images/icons/emoji/unicode/26a0.png" alias="warning">⚠️</g-emoji>
@@ -42,7 +42,7 @@ Install H5PracticeEditor
 # Software screenshots
 
  <p align="center">
-   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h3.gif" 
+   <img align="center" src="https://i-fuyun.github.io/H5PracticeEditor/website/screenshots/h3.gif" 
    alt="data module" />
  </p>
  <p align="center">
