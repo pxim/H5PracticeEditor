@@ -1,0 +1,363 @@
+body {
+    font-family: "Segoe UI", "Open Sans", sans-serif;
+}
+
+.navbar-main {
+    background-color: #334b64; /*#1c5288*/
+    /*background: linear-gradient(to bottom, navy 0%, #2a68c6 100%); 12598d*/
+    margin-bottom: 0px;
+    border-radius: 0px;
+    box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+.navbar-main a {
+    color: white;
+}
+
+.navbar-main li> a:hover,
+.navbar-main li> a:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-main li> a:hover {
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 0px 25px rgba(255, 255, 255, 0.6);
+}
+
+.navbar li.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media (min-width: 768px) {
+    .navbar-center .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+    .navbar-center .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navbar-header button {
+    background-color: 1b6ea8;
+}
+
+.navbar-main button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-header span {
+    background-color: rgb(255, 255, 255);
+}
+
+.jumbotron {
+    background-color: #334b64;
+    background: radial-gradient(at top, #777393 0%, #334b64 100%);
+    color: white;
+    padding-top: 0px;
+    padding: 40px 0px 60px; /*top, sides, bottom */
+    margin-bottom: 0px;
+}
+
+.jumbotron h1 {
+    font-size: 110px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .jumbotron h1 {
+        font-size: 10vw;
+    }
+}
+
+.jumbotron p {
+    margin: 25px 0px 35px;
+    font-size: 25px;
+}
+
+.jumbotron-main {
+    text-align: center;
+}
+
+.jumbotron-main .btn {
+    background-color: white;
+    border-color: grey;
+    color: #267bc4;
+    border-radius: 0px;
+    padding: 10px 0px;
+    margin: 10px 10px 0px 10px;
+    font-size: 20px;
+    text-shadow: 0px 1px 0px #ffffff;
+    position: relative;
+    width: 200px;
+}
+
+.jumbotron-main .btn:hover {
+    color: #1c92e6;
+    text-shadow: 0px 1px 0px #ffffff, 0px 0px 30px rgba(0, 186, 255, 0.4);
+}
+
+.jumbotron-main .btn:active {
+    color: #257cb9;
+    background-color: #f4f4f4;
+    top: 3px;
+}
+
+.jumbotron-main .tooltip {
+    margin-top: 4px;
+}
+
+.jumbotron-main .tooltip .tooltip-inner {
+    background-color: #334b64;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    padding: 0px;
+    font-size: 15px;
+    max-width: none;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+.jumbotron-main .tooltip .tooltip-arrow {
+    display: none;
+}
+
+.jumbotron-main .tooltip.in {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+.jumbotron-main .tooltip a {
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron-main .tooltip div {
+    padding: 7px 12px;
+}
+
+.container-screenshot {
+    background-color: #fafafa;
+    background-image: url(../img/Background.png);
+    padding-top: 30px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.container-screenshot h2 {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: #257cb9;
+}
+
+.container-screenshot .img-responsive-parent {
+    margin: 20px;
+}
+
+.container-screenshot img {
+    margin: 0px auto 30px auto;
+    box-shadow: 0px 0px 50px rgba(29, 80, 123, 0.3);
+}
+
+.container-screenshot .btn {
+    background-color: #334b64;
+    border-color: gray;
+    color: white;
+    border-radius: 0px;
+    padding: 10px 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    position: relative;
+}
+
+.container-screenshot .btn:hover {
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.8);
+}
+
+.container-screenshot .btn:active {
+    background-color: #777393; 
+    top: 3px;
+}
+
+/*After the screenshots:*/
+
+.container-features {
+    background-color: #f5f5f5;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-align: center;
+}
+
+@media (min-width: 1200px) {
+    .container-features .container {
+        width: 970px;
+    }
+}
+
+.container-features h2 {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.container-features .col-sm-4 {
+    margin-bottom: 30px;
+}
+
+.container-features p {
+    color: #0e4d81;
+}
+
+/*Footer:*/
+footer {
+    background-color: #334b64;
+    color: white;
+    box-shadow: 0px 0px 40px rgba(22, 40, 69, 0.4);
+    padding: 20px 0px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0px;
+}
+
+.jumbotron-compact {
+    padding: 25px 0px;
+}
+
+.jumbotron-compact h1 {
+    font-size: 70px;
+}
+
+@media screen and (max-width: 768px){
+    .jumbotron-compact h1 {
+        font-size: 10vw;
+    }
+}
+
+.jumbotron-compact a:hover {
+    text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.5), 0px 0px 20px rgba(255, 255, 255, 0.2);
+}
+
+.jumbotron-compact a {
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron-compact p {
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 34px;
+    margin: 0px;
+}
+
+.navbar-compact {
+    border: none;
+}
+
+@media (min-width: 768px) {
+    .navbar-compact .container {
+        padding-left: 0px;
+    }
+    .navbar-compact .container #navbar {
+        padding-left: 0px;
+    }
+}
+
+.container-content {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #f5f5f5;
+}
+
+.body-background {
+    background-color: #fafafa;
+    background-image: url(../img/Background.png);
+}
+
+.container-donate {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    color: #19619d;
+}
+
+.expandbody {
+    display: flex;
+     flex-direction: column;
+    min-height: 100vh;
+}
+
+.container-donate-2 {
+    padding-top: 30px;
+    flex: 1;
+    padding-bottom: 30px;
+}
+
+.donate-note {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    background-color: #19619d;
+    border: none;
+    color: white;
+}
+
+.donate-note a {
+    color: white;
+    text-decoration: underline;
+}
+
+.donate-button {
+    margin-right: 15px;
+}
+
+.patrons-panel {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-color: #334b64; /*#19619d*/
+}
+
+.patrons-panel .panel-heading {
+    color: white;
+    background-color: #334b64;
+    border-color: #334b64;
+}
+
+.container-downloads {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.container-downloads h1 {
+    font-size: 18px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.table-downloads {
+    display: none;
+}
+
+.container-downloads .spinning {
+    animation: spin 1s infinite linear;
+    -webkit-animation: spin2 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin2 {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}

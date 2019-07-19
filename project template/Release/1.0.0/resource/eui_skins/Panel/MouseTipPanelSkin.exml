@@ -1,4 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="MouseTipPanelSkin" width="60" height="22" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image id="bg_1" x="0" y="0" width="60" height="22" source="bg_3_png"/>
-</e:Skin>

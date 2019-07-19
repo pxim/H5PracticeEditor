@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<e:Skin class="VideoPanelSkin" width="1104" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="bg_2_1_png" x="0" y="490" width="1104" locked="true"/>
-	<e:Image source="bg_2_0_png" x="0" y="0" locked="true"/>
-	<e:Component id="controlsPanel" x="0" skinName="PlaybackControlsSkin" bottom="0"/>
-</e:Skin>

@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="MainUISkin" width="1124" height="768" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="bg_1_png" x="-22" y="134"/>
-	<e:Button id="btnExplain" label="按钮" x="14" skinName="btnExplainSkin" verticalCenter="60"/>
-	<e:Button id="btnPractice" label="按钮" x="400" skinName="BtnPracticeSkin" verticalCenter="60"/>
-	<e:Button id="btnQuizzes" label="按钮" x="791" skinName="BtnQuizzesSkin" verticalCenter="60"/>
-</e:Skin>

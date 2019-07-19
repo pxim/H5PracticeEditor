@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="RecordsPanelSkin" width="380" height="310" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="records_panel_bg_png" x="0" y="0"/>
-	<e:Button id="btn_close" y="16" label="按钮" skinName="BtnCloseSkin" x="355"/>
-	<e:Label id="txt_info" x="10" y="42" height="255" width="359" textColor="0x010000" size="15" name="txt_info" fontFamily="Adobe 仿宋 Std R"/>
-</e:Skin>

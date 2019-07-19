@@ -1,6 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="Btn_Medias_PlayAndStopSkin" states="up,down,disabled" width="26" height="26"
-        xmlns:e="http://ns.egret.com/eui">
-	<e:Image source="btn_play2_png" x="0" y="0" x.up="0" y.up="0" includeIn="up"/>
-	<e:Image source="btn_stop2_png" includeIn="down" x="0" y="0"/>
-</e:Skin>

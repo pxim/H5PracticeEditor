@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="SenceView_16Skin" width="1020" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="SceneView_16_bg_png" x="0" y="0" locked="true"/>
-	<e:Image id="part_13" x="0" y="0" source="part_13_2_png" name="part_13" locked="true"/>
-	<e:Image id="hotspot_50" x="279" y="322" source="hotspot_50_png" name="hotspot_50" locked="true"/>
-	<e:Image id="hotspot_51" x="279" y="322" source="hotspot_51_png" name="hotspot_51" locked="true"/>
-</e:Skin>

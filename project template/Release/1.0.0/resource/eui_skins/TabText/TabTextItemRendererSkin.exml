@@ -1,9 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="TabTextItemRendererSkin" width="350" height="24" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Group id="contentGroup" height="24" width="350" x="0" y="0">
-		<e:ToggleButton id="arrowButton" x="3" y="7" skinName="TabTextArrowButtonSkin"/>
-		<e:Image id="iconDisplay" height="20" width="20" x="23" y="3"/>
-		<e:Label id="labelDisplay" x="39" y="3" width="300" height="20" wordWrap="true" textColor="0x000000" size="21"/>
-		<e:Label id="textDisplay" y="26" height="20" width="300" wordWrap="true" size="21" x="48" textColor="0x000000" textAlign="left"/>
-	</e:Group>
-</e:Skin>
