@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin currentState="up" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" states="up,down" height="24" height.up="24">
+	<e:Image source="bg_l3_png" includeIn="down" x="0" y="0" locked="true"/>
+	<e:Image id="default_up" includeIn="up" x="0" y="0" source="{data.bg_up}" width="290" height="24" locked="true"/>
+<e:Label horizontalCenter="0" textColor="0x040303" y.up="5" y="4" size="16" textColor.down="0x050404" textColor.up="0x000000" text="{data.comment}" width.up="290" textAlign.up="left" width.down="290" textAlign.down="left" width="290" textAlign="left" text.up="{data.content}" text.down="{data.content}" horizontalCenter.up="0" horizontalCenter.down="0" y.down="5" fontFamily.down="宋体" fontFamily.up="宋体" bold.up="false" bold.down="false"/> </e:Skin>

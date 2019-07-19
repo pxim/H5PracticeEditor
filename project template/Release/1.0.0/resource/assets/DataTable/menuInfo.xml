@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<Item content="一：拆卸发动机线束" id="1" type="1"  bg_up= "bg_l1_png" partGroup="1" resources="SceneView_1Skin.exml">
+	</Item>
+	<Item content="二：拆卸发动机进气导管" id="2" type="2"  bg_up= "bg_l2_png" partGroup="2" resources="SceneView_2Skin.exml">
+	</Item>
+	<Item content="三：拆卸进气歧管总成" id="3" type="1"  bg_up= "bg_l1_png" partGroup="3" resources="SceneView_3Skin.exml">
+	</Item>
+	<Item content="四：拆卸废气涡轮增压器" id="4" type="2"  bg_up= "bg_l2_png" partGroup="4" resources="SceneView_4Skin.exml">
+	</Item>
+	<Item content="五：拆卸高压泵" id="5" type="1"  bg_up= "bg_l1_png" partGroup="5" resources="SceneView_5Skin.exml">
+	</Item>
+	<Item content="六：拆卸燃油分配器" id="6" type="2"  bg_up= "bg_l2_png" partGroup="6" resources="SceneView_6Skin.exml">
+	</Item>
+	<Item content="七：拆卸点火线圈和火花塞" id="7" type="1"  bg_up= "bg_l1_png" partGroup="7" resources="SceneView_7Skin.exml">
+	</Item>
+	<Item content="八：拆卸冷却液泵和节温器壳体总成" id="8" type="2"  bg_up= "bg_l2_png" partGroup="8" resources="SceneView_8Skin.exml">
+	</Item>
+	<Item content="九：拆卸机油冷却器" id="9" type="1"  bg_up= "bg_l1_png" partGroup="9" resources="SceneView_9Skin.exml">
+	</Item>
+	<Item content="十：拆卸油气分离器" id="10" type="2"  bg_up= "bg_l2_png" partGroup="10" resources="SceneView_10Skin.exml">
+	</Item>
+	<Item content="十一：拆卸机油滤清器" id="11" type="1"  bg_up= "bg_l1_png" partGroup="11" resources="SceneView_11Skin.exml">
+	</Item>
+	<Item content="十二：安装机油滤清器" id="12" type="2"  bg_up= "bg_l2_png" partGroup="12" resources="SceneView_12Skin.exml">
+	</Item>
+	<Item content="十三：安装油气分离器" id="13" type="1"  bg_up= "bg_l1_png" partGroup="11" resources="SceneView_13Skin.exml">
+	</Item>
+	<Item content="十四：安装机油冷却器" id="14" type="2"  bg_up= "bg_l2_png" partGroup="10" resources="SceneView_14Skin.exml">
+	</Item>
+	<Item content="十五：安装冷却液泵和节温器壳体总成" id="15" type="1"  bg_up= "bg_l1_png" partGroup="9" resources="SceneView_15Skin.exml">
+	</Item>
+	<Item content="十六：安装点火线圈和火花塞" id="16" type="2"  bg_up= "bg_l2_png" partGroup="8" resources="SceneView_16Skin.exml">
+	</Item>
+	<Item content="十七：安装燃油分配器" id="17" type="1"  bg_up= "bg_l1_png" partGroup="7" resources="SceneView_17Skin.exml">
+	</Item>
+	<Item content="十八：安装高压泵" id="18" type="2"  bg_up= "bg_l2_png" partGroup="6" resources="SceneView_18Skin.exml">
+	</Item>
+	<Item content="十九：安装废气涡轮增压器" id="19" type="1"  bg_up= "bg_l1_png" partGroup="5" resources="SceneView_19Skin.exml">
+	</Item>
+	<Item content="二十：安装进气歧管总成" id="20" type="2"  bg_up= "bg_l2_png" partGroup="4" resources="SceneView_20Skin.exml">
+	</Item>
+	<Item content="二十一：安装发动机进气导管" id="21" type="1"  bg_up= "bg_l1_png" partGroup="3" resources="SceneView_21Skin.exml">
+	</Item>
+	<Item content="二十二：安装发动机线束" id="22" type="2"  bg_up= "bg_l2_png" partGroup="2" resources="SceneView_22Skin.exml">
+	</Item>
+</menu>

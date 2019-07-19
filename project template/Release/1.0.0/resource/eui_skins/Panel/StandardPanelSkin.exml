@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="StandardPanelSkin" width="451" height="451" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image y="0" x="0" source="bg_standerPanel_png" locked="true"/>
+	<e:Button id="btn_close" skinName="BtnCloseSkin" y="10" x="424" name="btn_close" locked="true"/>
+</e:Skin>

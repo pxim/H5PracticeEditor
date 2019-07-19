@@ -1,0 +1,128 @@
+{
+  "menu": {
+    "Item": [
+      {
+        "id": "1",
+        "instanceName":"tool_1",
+        "senceItemID":"1",
+        "name": "托架 VW 313",
+        "group": "2",
+        "isCombineTool": false,
+        "combineToolUnitIndex": "0",
+        "isUse": "false",
+        "resources": "icon_tool_1_png",
+        "resources2":"scene_tool_1_png",
+        "offsetX":"+260",
+        "offsetY":"+100"
+      },
+      {
+        "id": "2",
+        "instanceName":"tool_2",
+        "senceItemID":"2",
+        "name": "变速箱支架 3221",
+        "group": "2",
+        "isCombineTool": false,
+        "combineToolUnitIndex": "0",
+        "isUse": "false",
+        "resources": "icon_tool_2_png",
+        "resources2":"scene_tool_2_png",
+        "offsetX":"+100",
+        "offsetY":"+120"
+      },
+      {
+        "id": "3",
+        "instanceName":"tool_3",
+        "senceItemID":"3",
+        "name": "收集盘",
+        "group": "2",
+        "isCombineTool": false,
+        "combineToolUnitIndex": "0",
+        "isUse": "false",
+        "resources": "icon_tool_3_png",
+        "resources2":"scene_tool_3_png",
+        "offsetX":"+100",
+        "offsetY":"-150"
+      },
+      {
+        "id": "4",
+        "instanceName":"",
+        "senceItemID":"",
+        "name": "棘轮扳手",
+        "group": "1",
+        "isCombineTool": true,
+        "combineToolUnitIndex": "1",
+        "isUse": "false",
+        "resources": "icon_tool_4_png"
+      },
+      {
+        "id": "5",
+        "instanceName":"",
+        "senceItemID":"",
+        "name": "接杆",
+        "group": "1",
+        "isCombineTool": true,
+        "combineToolUnitIndex": "2",
+        "isUse": "false",
+        "resources": "icon_tool_5_png"
+      },
+      {
+        "id": "6",
+        "instanceName":"",
+        "senceItemID":"",
+        "name": "17mm内六角套筒",
+        "group": "1",
+        "isCombineTool": true,
+        "combineToolUnitIndex": "3",
+        "isUse": "false",
+        "resources": "icon_tool_6_png"
+      },
+      {
+        "id": "7",
+        "instanceName":"",
+        "senceItemID":"",
+        "name": "T30套筒",
+        "group": "1",
+        "isCombineTool": true,
+        "combineToolUnitIndex": "3",
+        "isUse": "false",
+        "resources": "icon_tool_7_png"
+      },
+      {
+        "id": "8",
+        "instanceName":"",
+        "senceItemID":"",
+        "name": "扭力扳手",
+        "group": "1",
+        "isCombineTool": true,
+        "combineToolUnitIndex": "1",
+        "isUse": "false",
+        "resources": "icon_tool_8_png"
+      },
+      {
+        "id": "9",
+        "instanceName":"",
+        "senceItemID":"",
+        "name": "22mm扳手头",
+        "group": "1",
+        "isCombineTool": true,
+        "combineToolUnitIndex": "3",
+        "isUse": "false",
+        "resources": "icon_tool_9_png"
+      },
+      {
+        "id": "10",
+        "instanceName":"tool_7",
+        "senceItemID":"7",
+        "name": "开口弹簧钳",
+        "group": "8",
+        "isCombineTool": false,
+        "combineToolUnitIndex": "0",
+        "isUse": "false",
+        "resources": "icon_tool_10_png",
+        "resources2":"scene_tool_7_png",
+        "offsetX":"-110",
+        "offsetY":"-30"
+      }   
+    ]
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "menu": {
+    "Item": [
+      {
+        "id": "1",
+        "instanceName":"part_1",
+        "name": "放油螺栓",
+        "group": "1",
+        "isUse": "false",
+        "resources": "icon_part_1_png",
+        "resources2": "scene_part_1_png",
+        "resources3": "part_1_png",
+        "offsetX":"0",
+        "offsetY":"0"
+      },
+      {
+        "id": "2",
+        "instanceName":"part_2",
+        "name": "放油螺栓",
+        "group": "1",
+        "isUse": "false",
+        "resources": "icon_part_2_png",
+        "resources2": "scene_part_2_png",
+        "resources3": "part_2_png",
+        "offsetX":"0",
+        "offsetY":"0"
+      },
+      {
+        "id": "3",
+        "instanceName":"part_3",
+        "name": "离合器分离杠杆螺栓",
+        "group": "1",
+        "isUse": "false",
+        "resources": "icon_part_3_png",
+        "resources2": "scene_part_3_png",
+        "resources3": "part_3_png",
+        "offsetX":"0",
+        "offsetY":"0"
+      },
+      {
+        "id": "4",
+        "instanceName":"part_4",
+        "name": "导向套筒",
+        "group": "1",
+        "isUse": "false",
+        "resources": "icon_part_4_png",
+        "resources2": "scene_part_4_png",
+        "resources3": "part_4_png",
+        "offsetX":"0",
+        "offsetY":"0"
+      },
+      {
+        "id": "5",
+        "instanceName":"part_5",
+        "name": "离合器分离杠杆",
+        "group": "1",
+        "isUse": "false",
+        "resources": "icon_part_5_png",
+        "resources2": "scene_part_5_png",
+        "resources3": "part_5_png",
+        "offsetX":"0",
+        "offsetY":"0"
+      },
+      {
+        "id": "6",
+        "instanceName":"part_6",
+        "name": "分离轴承",
+        "group": "1",
+        "isUse": "false",
+        "resources": "icon_part_6_png",
+        "resources2": "scene_part_6_png",
+        "resources3": "part_6_png",
+        "offsetX":"0",
+        "offsetY":"0"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="ToolsPanelSkin" width="481" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="tools_panel_bg_png" x="0" y="0"/>
+	<e:Button x="454" label="按钮" y="17" skinName="BtnCloseSkin" id="btn_close"/>
+	<e:Image id="toolBtn_1" source="toolBtn_1_png" x="32" y="143" name="toolBtn_1"/>
+	<e:Image id="toolBtn_2" source="toolBtn_2_png" x="140" y="141" name="toolBtn_2"/>
+</e:Skin>

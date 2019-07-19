@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MainPanelSkin" width="1104" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_1_png" x="0" y="0" locked="true"/>
+	<e:Image source="bg_2_png" x="0" y="0" locked="true"/>
+	<e:Button id="tabBtn_record" x="1033" y="153" name="tabBtn_record">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_record_up_png" source.down="btn_record_down_png" source.disabled="btn_record_disabled_png"/>
+				<e:Label id="labelDisplay" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="tabBtn_standard" x="1033" y="236" name="tabBtn_standard">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_standard_up_png" source.down="btn_standard_down_png" source.disabled="btn_standard_disabled_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="tabBtn_tools" x="1033" y="319" name="tabBtn_tool">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_tool_up_png" source.down="btn_tool_down_png" source.disabled="btn_tool_disabled_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="tabBtn_parts" x="1033" y="402" name="tabBtn_part">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_part_up_png" source.down="btn_part_down_png" source.disabled="btn_part_disabled_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="tabBtn_refresh" x="1033" y="485" name="tabBtn_refresh">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_refresh_up_png" source.down="btn_refresh_down_png" source.disabled="btn_refresh_disabled_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="tabBtn_submit" x="1033" y="-14" name="tabBtn_submit">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_submit_up_png" source.down="btn_submit_down_png" source.disabled="btn_submit_disabled_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="tabBtn_return" x="1033" y="70" name="tabBtn_return">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="btn_return_up_png" source.down="btn_return_down_png" source.disabled="btn_return_disabled_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label text="实训记录" x="1038" y="68" textColor="0x010000" size="12" locked="true" visible="false"/>
+	<e:Label y="149" textColor="0x010000" size="12" text="操作规范" x="1038" locked="true" visible="false"/>
+	<e:Label y="229" textColor="0x010000" size="12" text="工        具" x="1038" locked="true" visible="false"/>
+	<e:Label y="311" textColor="0x010000" size="12" text="零        件" x="1038" locked="true" visible="false"/>
+	<e:Label y="391" textColor="0x010000" size="12" text="重        置" x="1038" locked="true" visible="false"/>
+	<e:Label y="473" textColor="0x010000" size="12" text="提        交" x="1038" locked="true" visible="false"/>
+	<e:Label y="553" textColor="0x010000" size="12" text="返回主页" x="1038" locked="true" visible="false"/>
+</e:Skin>

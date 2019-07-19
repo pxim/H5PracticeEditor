@@ -1,0 +1,5 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="MenuPanelSkin" width="300" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="_head" source="bg_l0_png" x="0" y="0" scaleX="1" scaleY="1"/>
+	<e:Image id="btn_menu" source="btn_menu_png" verticalCenter="0" right="0" x="290" y="270" scaleX="1" scaleY="1"/>
+</e:Skin>

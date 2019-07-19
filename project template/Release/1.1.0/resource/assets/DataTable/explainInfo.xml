@@ -1,0 +1,111 @@
+
+所有XML，JSON里字段的含义
+一、standardInfo.json —— 操作规范数据表
+<!-- 
+说明：
+1.id：数据序列号（注：从1往后排，下面表里这个字段都是这个规则，不再叙述）
+2.content：操作规范主题
+3.content2：和操作规范主题对应的详细内容（注：文本里“\n”是换行的作用，在成品上文本需要换行的地方，在这字段文本对应处添加“\n”）
+-->
+
+二、menuInfo.xml —— 菜单数据表
+<!-- 
+说明：
+1.id：数据序列号
+2.content：菜单内容
+3.type：菜单item默认底类型（1：灰色底，2：白色底）
+4.bg_up:4.菜单item默认底的图片资源，和type字段对应（1：bg_l1_png，2：bg_l2_png）
+5.partGroup：菜单item选中场景之后，对应的零件面板上的要显示的零件icon群组索引
+6.hidePanelTools：在当前lv1场景中，初始化的时候，工具箱里缺少的工具（空值:工具箱里工具没有缺少；"1,2,3"：表示senceItemID为1，2，3的3个工具在工具箱里隐藏） PS:目前只适用单个独立工具；组合工具;
+7.resources：菜单item选中场景之后，对应的场景资源
+-->
+
+三、partInfo.json —— 零件数据表
+<!-- 
+说明：
+1.id：数据序列号
+2.instanceName：零件icon的实例名
+3.name：零件的名字
+4.group:零件群组（比如第一步出现的零件，那么group=1，以此类推）
+5.isUse：零件是否在使用(false：没有，true：在使用)
+6.resources：零件 在 零件面板 上的 icon资源
+7.resources2：零件 在场景上 的资源（从零件面板里拿出后，安装到场景后的）
+8.resources3：零件 在场景上 的资源（从零件面板里拿出后，在场景上拖动时的）
+9.offsetX：resources2里面的场景工具资源的偏移X值   //往左是- (在原有基数上加数值），往右是+ （在原有基数上减数值）
+10.offsetY：resources2里面的场景工具资源的偏移Y值   //往下是+ （在原有基数上减数值），往上是-（在原有基数上加数值）
+-->
+
+四、toolInfo.json —— 工具数据表1（工具icon+单个工具 数据）
+<!-- 
+说明：
+1.id：数据序列号
+2.instanceName：在场景上，正在跟随鼠标被拖动的工具的实例名；
+3.senceItemID：场景工具id
+4.name:工具名字
+5.group：群组——————目前此字段保留，可以不用填写任何数据
+6.isCombineTool：是否是组合工具（true：是组合工具，false：不是组合工具）
+76.combineToolUnitIndex：组合工具部件索引(0：单个工具，1，2，3......等是组合工具部件所在 工具组合框上 对应的框子索引)
+8.isUse：是否在使用工具icon（这个字段，填表的时候，值全部是 false）
+9.resources：工具面板上工具icon资源名
+10.resources2：场景工具资源名
+11.offsetX：resources2里面的场景工具资源的偏移X值   //往左是- (在原有基数上加数值），往右是+ （在原有基数上减数值）
+12.offsetY：resources2里面的场景工具资源的偏移Y值   //往下是+ （在原有基数上减数值），往上是-（在原有基数上加数值）
+-->
+
+五、combineToolInfo.json —— 工具数据表2（组合工具 数据）
+<!--
+说明：
+1.id：数据序列号
+2.instanceName：在场景上，正在跟随鼠标被拖动的工具的实例名；
+2.senceItemID：场景工具id
+3.combineToolUnit1Name:组合工具——部件1 名字
+4.combineToolUnit2Name：组合工具——部件2 名字
+5.combineToolUnit3Name：组合工具——部件3 名字
+6.name：组合工具的名字
+7.isUse：是否在使用场景工具（这个字段，填表的时候，值全部是 false）
+8.resources：组合工具在 工具面板 上的 icon资源
+9.resources2：组合工具 在场景上 的资源
+10.offsetX：resources2里面的场景工具资源的偏移X值   //往左是- (在原有基数上加数值），往右是+ （在原有基数上减数值）
+11.offsetY：resources2里面的场景工具资源的偏移Y值   //往下是+ （在原有基数上减数值），往上是-（在原有基数上加数值） 
+-->
+
+六、hotspotInfo.json —— 热点数据表
+<!--
+说明：
+1.id：数据序列号
+2.isToolOrPart： 和热点对应的item是工具还是零件（空值：没有工具零件就；1：工具；2：零件；）
+2.isHideOrShowItem：操作热点后，隐藏或者显示场景上的item（零件，工具）（空值：pass；1：隐藏；2：显示）
+3.sceneItemID：场景上，和热点对应的 零件id，（主要用于 隐藏，显示 和热点ID对应的场景零件）
+4.panelItemIconID：和热点对应的 零件面板上的 零件Icon ID（主要用于 隐藏，显示 和热点ID对应的零件Icon）
+5.content：记录，零件或者工具，使用之后对应的操作记录（空值代表这个热点没有相关操作记录）
+6.useToolID： 这个热点使用什么工具，空值代表不使用工具（数值=toolSetsInfo.json中的senceItemID字段）
+7.toolAni:工具动画（空值代表没有）
+8.toolAniCount：工具动画的总帧数（一共有多少序列帧图片）
+9.nextHotspot"：本场景中下一个热点
+10.isGotoNextScene：是否进入下一个场景（true：进入，false：不进入） 
+11.gotoNextSceneWay：进入下一个场景的方式(在拆卸场景中：0：点击热点（零件被拆除），进入下一个场景 1：使用工具，工具动画播放完（零件被拆除），进入下一个场景；在安装场景中： 2：点击热点（单纯的就是点击热点），进入下一个场景 3：安装零件后，进入下一个场景  4：使用工具，工具动画播放完（拧紧零件，安装零件后），进入下一个场景)
+12.TorqueSelectIndex：只有在测试模式的安装场景下,出现 扭矩选择界面（场景上工具 安装时，但是播放工具动画前，出现此界面），值从0——N（数值代表 扭矩选择界面索引 ）
+13.TorqueSelectRight：扭矩选择界面 正确的答案 （值：扭力+角度，中间加“_”隔开，例：10_0）
+14.TorqueSelectScore： 此扭矩选择的分数（正确就加分，错误就减分）
+-->
+
+七、senceInfo.json —— 场景数据表
+<!--
+说明：
+1.id：数据序列号
+2.sceneID：场景id（1级场景是整数，如果1级场景里有2级场景，那么可以这样子写，例：19.2）
+3.nowScenName：当前场景 皮肤的 名字
+4.sceneType：场景类型（0：拆卸场景，1：安装场景）
+5.hotspots:所有在本场景上会出现 的热点的id
+6.sceneAni：进入下一个场景的场景动画资源
+7.sceneAniCount：场景动画的总帧数（一共有多少序列帧图片）
+8.content：本场景的操作记录（完成本场景所有操作之后，记录本次场景）
+9.score：本场景完成之后的得分
+10.isLV1SceneNext：下一个场景是不是 1级场景（true：是，false：不是）
+11.nextSceneID：如果下一个场景是 级场景，那么设置场景的ID；如果不是，值为空
+12.nextPartGroup：下一个场景 对应的 零件面板上的 零件群组索引
+13.nextScenName：下一个场景 皮肤的 名字
+-->
+
+
+

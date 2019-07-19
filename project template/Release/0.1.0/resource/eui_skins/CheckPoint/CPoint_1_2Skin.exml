@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="CPoint_1_2Skin" width="35" height="35" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="cpoint_1_2_png" x="0" y="0" name="cPoint_1_2" id="cPoint_1_2"/>
+</e:Skin>

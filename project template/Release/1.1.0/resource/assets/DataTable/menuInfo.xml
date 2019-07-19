@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+	<Item content="一：拆卸离合器分离装置" id="1" type="1"  bg_up= "bg_l1_png" partGroup="1"  hidePanelTools="" resources="SceneView_1Skin.exml">
+	</Item>
+	<Item content="二：拆卸变速箱" id="2" type="2"  bg_up= "bg_l2_png" partGroup="2"   hidePanelTools="1,2,3" resources="SceneView_2Skin.exml">
+	</Item>
+	<Item content="三：分解输入轴" id="3" type="1"  bg_up= "bg_l1_png" partGroup="3"   hidePanelTools="1,2,3" resources="SceneView_3Skin.exml">
+	</Item>
+	<Item content="四：分解输出轴" id="4" type="2"  bg_up= "bg_l2_png" partGroup="4"   hidePanelTools="1,2,3" resources="SceneView_4Skin.exml">
+	</Item>
+	<Item content="五：组装输出轴" id="5" type="1"  bg_up= "bg_l1_png" partGroup="5"  hidePanelTools="1,2,3" resources="SceneView_5Skin.exml">
+	</Item>
+	<Item content="六：组装输入轴" id="6" type="2"  bg_up= "bg_l2_png" partGroup="6"   hidePanelTools="1,2,3" resources="SceneView_6Skin.exml">
+	</Item>
+	<Item content="七：安装输变速箱" id="7" type="1"  bg_up= "bg_l1_png" partGroup="7"   hidePanelTools="1,2,3" resources="SceneView_7Skin.exml">
+	</Item>
+	<Item content="八：安装离合器分离装置" id="8" type="2"  bg_up= "bg_l2_png" partGroup="8"   hidePanelTools="1,2,3,7" resources="SceneView_8Skin.exml">
+	</Item>
+</menu>

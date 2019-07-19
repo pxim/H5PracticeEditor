@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SenceView_1Skin" width="1020" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg_1" source="SceneView_1_bg_png" x="0" y="0" width="1020" locked="true"/>
+	<e:Image id="bg_2" source="SceneView_1_bg_2_png" x="0" y="0" scaleX="1" scaleY="1" width="1020" locked="true"/>
+	<e:Image id="tool_1" source="tool_1_png" x="0" y="0" name="tool_1" locked="true"/>
+	<e:Image id="tool_2" source="tool_2_png" x="0" y="0" name="tool_2" locked="true"/>
+	<e:Image id="tool_3" source="tool_3_png" x="0" y="0" name="tool_3" locked="true"/>
+	<e:Image id="hotspot_1" source="hotspot_1_png" x="64" y="87" name="hotspot_1" locked="true"/>
+	<e:Image id="hotspot_2" source="hotspot_2_png" x="272" y="38" name="hotspot_2" locked="true"/>
+	<e:Image id="hotspot_3" source="hotspot_3_png" x="260" y="434" name="hotspot_3" locked="true"/>
+</e:Skin>

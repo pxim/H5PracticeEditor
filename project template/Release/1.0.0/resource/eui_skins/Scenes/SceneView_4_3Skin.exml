@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="SceneView_4_3Skin" width="1020" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="SceneView_4_3_bg_png" x="0" y="0" locked="true"/>
+	<e:Image id="part_8" source="part_8_png" x="0" y="0" name="part_8" locked="true"/>
+	<e:Image id="npart_6" source="npart_6_png" x="0" y="0" name="npart_6" locked="true"/>
+	<e:Image id="part_7" source="part_7_png" x="0" y="0" name="part_7" locked="true"/>
+	<e:Image id="npart_5" source="npart_5_png" x="0" y="0" name="npart_5" locked="true"/>
+	<e:Image id="part_6" x="0" y="0" source="part_6_png" name="part_6" locked="true"/>
+	<e:Image id="npart_4" x="0" y="0" source="npart_4_png" name="npart_4" locked="true"/>
+	<e:Image id="hotspot_11" source="hotspot_11_png" x="296" y="220" name="hotspot_11" locked="true"/>
+	<e:Image id="hotspot_12" source="hotspot_12_png" x="301" y="102" name="hotspot_12" locked="true"/>
+	<e:Image id="hotspot_13" source="hotspot_13_png" x="370" y="305" name="hotspot_13" locked="true"/>
+	<e:Image id="hotspot_14" source="hotspot_14_png" x="331" y="98" name="hotspot_14" locked="true"/>
+	<e:Image id="hotspot_15" source="hotspot_15_png" x="399" y="120" name="hotspot_15" locked="true"/>
+	<e:Image id="hotspot_16" source="hotspot_16_png" x="25" y="-33" name="hotspot_16" locked="true"/>
+</e:Skin>

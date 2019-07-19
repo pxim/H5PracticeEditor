@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SubmitPanelSkin" width="1104" height="570" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_3_png" x="0" y="0" width="1104" height="570"/>
+	<e:ViewStack id="viewStack" width="1104" height="570" x="0" y="0" selectedIndex="0">
+		<e:Group width="100%" height="100%" name="视图">
+			<e:Image source="bg_6_png" y="150" horizontalCenter="0"/>
+			<e:Button id="btn_yes" label="" x="452" y="250">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_yes_up_png" source.down="btn_yes_down_png" source.disabled="btn_submit_disabled_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_no" label="" x="602" y="250">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_no_up_png" source.down="btn_no_down_png" source.disabled="btn_submit_disabled_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_close" x="752" y="155" skinName="BtnCloseSkin" name="btn_close"/>
+		</e:Group>
+		<e:Group width="100%" height="100%" name="视图">
+			<e:Image source="bg_7_png" horizontalCenter="0" y="150"/>
+			<e:Button id="btn_return" label="" x="564" y="280">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_return2_up_png" source.down="btn_return2_down_png" source.disabled="btn_submit_disabled_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Button id="btn_watchRecord" label="" x="402" y="280">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="btn_watchRecord_up_png" source.down="btn_watchRecord_down_png" source.disabled="btn_submit_disabled_png"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:Button>
+			<e:Label id="txt_score" text="标签" x="481" y="216" textColor="0x000000" width="73"/>
+		</e:Group>
+	</e:ViewStack>
+</e:Skin>

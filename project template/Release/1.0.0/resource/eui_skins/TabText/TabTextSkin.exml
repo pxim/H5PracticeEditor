@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="TabTextSkin" width="426" height="396" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Scroller id="cscorller" width="426" height="396" x="0" y="0">
+		<e:Group id="dataGroup" width="426" height="396"/>
+	</e:Scroller>
+</e:Skin>

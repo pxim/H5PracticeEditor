@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="PlaybackControlsSkin" width="1104" height="40" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="bg_playbackControls2_png" x="0" y="0" locked="true"/>
+	<e:ToggleButton id="btn_PlayOrStop" x="15" name="btn_PlayOrStop" selected="true" skinName="Btn_Medias_PlayAndStopSkin" verticalCenter="0"/>
+	<e:Button id="btn_return" name="btn_return" verticalCenter="0" x="1063">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_return3_up_png" source.down="btn_return3_down_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="btn_refresh" x="1025" y="7" name="btn_refresh">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="btn_refresh2_up_png" source.down="btn_refresh2_down_png"/>
+			<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Label id="txt_time" x="1030" y="-35" size="18" width="60" name="txt_time" text="00:00" textAlign="left" visible="false"/>
+	<e:HSlider id="hSlider" x="58" y="7" width="950"/>
+</e:Skin>

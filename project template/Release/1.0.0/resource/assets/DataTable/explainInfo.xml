@@ -1,0 +1,104 @@
+
+所有XML，JSON里字段的含义
+modelInfo.json
+<!-- 学习模式信息（练习模式 or 测试模式）
+id：序号
+model:0 (0：练习模式； 1：测试模式)
+
+-->
+
+
+senceInfo.json
+<!-- 场景配置信息json
+id：场景序号
+content：当前场景操作的名字
+sceneType：场景类型（0：拆卸场景，1：安装场景）
+hotspots:所有在本场景上会出现 的热点的id
+sceneAni：进入下一个场景的场景动画资源
+isLV1SceneNext：下一个场景是不是 LV1级别的场景（true：是，false：不是）
+nextV1SceneID：如果下一个场景是 LV1级别的场景，那么设置场景的ID；如果不是，值为空
+nextPartGroup：下一个场景 对应的 零件面板上的 零件群组索引
+nowScenName：当前场景 皮肤的 名字
+nextScenName：下一个场景 皮肤的 名字
+-->
+
+hotspotInfo.json
+<!-- 热点xml
+"id": 热点序号,
+"content": 内容，保留字段,
+"scenePartID":场景上，和热点对应的 零件id，（主要用于 隐藏，显示 和热点ID对应的场景零件）
+"partPanelIconID":和热点对应的 零件面板上的 零件Icon ID（主要用于 隐藏，显示 和热点ID对应的零件Icon）
+"useToolID": 这个热点使用什么工具，空值代表不使用工具（数值=toolSetsInfo.json中的senceItemID字段）
+"toolAni":工具动画
+"nextHotspot":本场景中下一个热点
+"isGotoNextScene":是否进入下一个场景 
+"gotoNextSceneWay"：进入下一个场景的方式(在拆卸场景中：0：点击热点（零件被拆除），进入下一个场景 1：使用工具，工具动画播放完（零件被拆除），进入下一个场
+在安装场景中： 2：点击热点（单纯的就是点击热点），进入下一个场景 3：安装零件后，进入下一个场景  4：使用工具，工具动画播放完（拧紧零件，安装零件后），进入下一个场景)
+"sceneScore"：本场景的得分(操作完本场景的任务，进入下一个场景之前，获得的分数)
+"TorqueSelectIndex"：只有在测试模式的安装场景下,出现 扭矩选择界面（场景上工具 安装时，但是播放工具动画前，出现此界面），值从0——N（数值代表 扭矩选择界面 具体是哪一个 selectedIndex 值 ）
+"TorqueSelectRight"：扭矩选择界面 正确的答案 索引（0——N）
+"TorqueSelectScore" 扭矩选择界面 分数（正确就加分，错误就减分）
+-->
+
+toolsInfo.json 
+<!-- 工具面板 icon工具以及场景工具（单个工具） json
+id：工具icon序号
+senceItemID：场景工具id
+name:工具名字
+group：群组
+isToolSets：是否是组合工具（true：是组合工具，false：不是组合工具）
+toolSetIndex：工具组合部件索引(0：单个工具，1，2，3......等是组合工具部件所在 工具组合框上 对应的框子索引)
+sortID：工具icon在工具车里的排序
+isUse：是否在使用工具icon
+resources：工具面板上工具icon资源名
+resources2：场景工具资源名
+offsetX：resources2里面的场景工具资源的偏移X值   //往左是- (在原有基数上加数值），往右是+ （在原有基数上减数值）
+offsetY：resources2里面的场景工具资源的偏移Y值   //往下是+ （在原有基数上减数值），往上是-（在原有基数上加数值）
+-->
+
+toolSetsInfo.json 
+<!-- 场景工具（组合工具） json
+id：json表里item序号
+senceItemID：场景工具id
+toolSet1Name:组合工具——部件1 名字
+toolSet2Name：组合工具——部件2 名字
+toolSet3Name：组合工具——部件3 名字
+name：组合工具的名字
+isUse：是否在使用场景工具
+resources：组合工具在 工具面板 上的 icon资源
+resources2：组合工具 在场景上 的资源
+offsetX：resources2里面的场景工具资源的偏移X值   //往左是- (在原有基数上加数值），往右是+ （在原有基数上减数值）
+offsetY：resources2里面的场景工具资源的偏移Y值   //往下是+ （在原有基数上减数值），往上是-（在原有基数上加数值）
+-->
+
+partsInfo.json 
+<!-- 零件面板 icon零件以及场景零件 json
+id：json表里item序号
+iname：零件icon的实例名
+name：零件的名字
+group:零件群组（比如第一步出现的零件，那么group=1，以此类推）
+sortID：零件摆放排序(零件拆下来后的顺序)
+isUse：零件是否在使用(false：没有，true：在使用)
+resources：零件 在 零件面板 上的 icon资源
+resources2：零件 在场景上 的资源（从零件面板里拿出后，安装到场景上时的）
+resources3：零件 在场景上 的资源（从零件面板里拿出后，在场景上拖动时的）
+offsetX：resources2里面的场景工具资源的偏移X值   //往左是- (在原有基数上加数值），往右是+ （在原有基数上减数值）
+offsetY：resources2里面的场景工具资源的偏移Y值   //往下是+ （在原有基数上减数值），往上是-（在原有基数上加数值）
+-->
+
+menuInfo.xml
+<!-- 零件面板 icon零件以及场景零件 json
+id：序列号
+content：菜单内容
+type：菜单item底类型（1：灰色底，2：白色底）
+bg_up:菜单item底的图片资源（1：灰色底，2：白色底）
+partGroup：菜单item选中场景之后，对应的零件面板上的零件icon群组索引
+resources：菜单item选中场景之后，对应的场景资源
+-->
+
+senceInfo.json
+<!-- 操作规范面板 json
+id：数据序列号
+content：操作规范主题
+content2：和操作规范主题对应的详细内容
+-->

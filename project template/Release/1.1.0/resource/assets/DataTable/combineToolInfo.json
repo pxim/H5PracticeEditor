@@ -1,0 +1,48 @@
+{
+  "menu": {
+    "Item": [
+      {
+        "id": "1",
+        "instanceName":"tool_4",
+        "senceItemID":"4",
+        "combineToolUnit1Name": "棘轮扳手",
+        "combineToolUnit2Name": "接杆",
+        "combineToolUnit3Name": "17mm内六角套筒",
+        "name": "棘轮扳手—17mm内六角套筒组合工具",
+        "isUse": "false",
+        "resources": "icon_toolSets_1_png",
+        "resources2":"scene_tool_4_png",
+        "offsetX":"+120",
+        "offsetY":"-135"
+      },
+	  {
+        "id": "2",
+        "instanceName":"tool_5",
+        "senceItemID":"5",
+        "combineToolUnit1Name": "棘轮扳手",
+        "combineToolUnit2Name": "接杆",
+        "combineToolUnit3Name": "T30套筒",
+        "name": "棘轮扳手—T30套筒组合工具",
+        "isUse": "false",
+        "resources": "icon_toolSets_2_png",
+        "resources2":"scene_tool_5_png",
+        "offsetX":"-45",
+        "offsetY":"+2"
+      },
+	  {
+        "id": "3",
+        "instanceName":"tool_6",
+        "senceItemID":"6",
+        "combineToolUnit1Name": "扭力扳手",
+        "combineToolUnit2Name": "",
+        "combineToolUnit3Name": "22mm扳手头",
+        "name": "扭力扳手—22mm扳手组合工具",
+        "isUse": "false",
+        "resources": "icon_toolSets_3_png",
+        "resources2":"scene_tool_6_png",
+        "offsetX":"+300",
+        "offsetY":"+2"
+      }
+    ]
+  }
+}
