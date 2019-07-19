@@ -1,10 +1,10 @@
 <p align="center">
-<a href="https://github.com/arvin0/H5PracticeEditor" target="_blank">
-<img align="center" alt="H5PracticeEditor" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/img/apple-icon-152x152.png" />
+<a href="https://github.com/i-fuyun/H5PracticeEditor" target="_blank">
+<img align="center" alt="H5PracticeEditor" src="https://github.com/i-fuyun/H5PracticeEditor/tree/master/website/img/apple-icon-152x152.png" />
 </a>
 </p>
 <p align="center">
-   <a href="https://github.com/arvin0/H5PracticeEditor/stargazers" target="_blank">
+   <a href="https://github.com/i-fuyun/H5PracticeEditor/stargazers" target="_blank">
         <img src="https://img.shields.io/github/stars/arvin0/H5PracticeEditor.svg" 
              alt="GitHub stars">
     </a>
