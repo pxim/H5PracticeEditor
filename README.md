@@ -27,7 +27,7 @@
 
 The H5PracticeEditor is a h5 car parts disassembling animation editor. 
 
-The software website is <a href="http://139.196.58.114:8036/index.html" target="_blank">H5PracticeEditor.com</a>.
+The software website is <a href="https://i-fuyun.github.io/H5PracticeEditor/website/index.html" target="_blank">H5PracticeEditor.com</a>.
 
 # Installation
 
@@ -46,10 +46,10 @@ Install H5PracticeEditor
    alt="data module" />
  </p>
  <p align="center">
-   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h4.gif" 
+   <img align="center" src="https://i-fuyun.github.io/H5PracticeEditor/website/screenshots/h4.gif" 
     alt="scenario editor module" />
  </p>
  <p align="center">
-   <img align="center" src="https://github.com/arvin0/H5PracticeEditor-Website/blob/master/screenshots/h5.gif"
+   <img align="center" src="https://i-fuyun.github.io/H5PracticeEditor/website/screenshots/h5.gif"
    alt="run webpage" />
  </p>
