@@ -1,7 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<e:Skin class="PartsPanelSkin" width="400" height="310" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
-	<e:Image source="parts_panel_bg_png" x="0" y="0" locked="true"/>
-	<e:Button id="btn_close" label="按钮" x="373" y="16" skinName="BtnCloseSkin" locked="true"/>
-	<e:Image id="partBtn_1" source="partBtn_1_png" x="33" y="48" name="partBtn_1" locked="true"/>
-	<e:Image id="partBtn_2" source="partBtn_2_png" x="149" y="48" name="partBtn_2" locked="true"/>
-</e:Skin>
