@@ -5,7 +5,7 @@
 本例主要功能：  
 模拟汽车零部件拆装的H5动画页面
 
-<a href="https://i-fuyun.github.io/H5PracticeEditor/project template/Release/1.1.0/index.html" target="_blank">预览</a>
+<a href="https://pxim.github.io/H5PracticeEditor/template/release/1.1.0/index.html" target="_blank">预览</a>
 
 技术框架：EgretTS
 
